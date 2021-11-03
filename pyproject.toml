@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "namespace"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "Simple namespaces"
 authors = ["Tom Bulled <26026015+tombulled@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
