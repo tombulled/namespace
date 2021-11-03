@@ -1,11 +1,11 @@
-# namespace
+# nspace
 Simple namespaces
 
 ## Usage
 ```python
 >>> import namespace
 >>>
->>> functions = namespace.new()
+>>> functions = namespace()
 >>>
 >>> @functions
 >>> def foo(): pass
