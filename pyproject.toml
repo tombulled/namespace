@@ -1,8 +1,14 @@
 [tool.poetry]
 name = "namespace"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple namespaces"
 authors = ["Tom Bulled <26026015+tombulled@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/tombulled/namespace"
+repository = "https://github.com/tombulled/namespace"
+documentation = "https://github.com/tombulled/namespace"
+keywords = ["python", "namespace"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
