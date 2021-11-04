@@ -1,4 +1,4 @@
-# nspace
+# namespace
 Simple namespaces
 
 ## Usage
