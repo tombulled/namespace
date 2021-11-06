@@ -1,14 +1,7 @@
-import sys
-import types
-import typing
+from .types import Namespace
 
-class Namespace(types.SimpleNamespace):
-    __setitem__ = types.SimpleNamespace.__setattr__
+import modcall
 
-    def __call__(self, entity: typing.Union[types.FunctionType, typing.Type]) -> None:
-        self[entity.__name__] = entity
+modcall(__name__, Namespace)
 
-class NamespaceModule(types.ModuleType):
-    __call__ = staticmethod(Namespace)
-
-sys.modules[__name__].__class__ = NamespaceModule
+del modcall
