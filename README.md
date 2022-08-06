@@ -5,7 +5,7 @@ Simple namespaces
 ```python
 import namespace
 
-functions = namespace()
+functions = namespace.Namespace()
 
 @functions
 def foo(): pass
